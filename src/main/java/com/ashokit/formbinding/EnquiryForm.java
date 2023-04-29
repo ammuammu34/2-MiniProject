@@ -7,6 +7,8 @@ import lombok.Data;
 @Data
 public class EnquiryForm {
 	
+	private Integer studentId;
+
 	@NotBlank(message = "name should be mandatory")
 	private String studentName;
 	@NotBlank(message = "this field is mandatory")

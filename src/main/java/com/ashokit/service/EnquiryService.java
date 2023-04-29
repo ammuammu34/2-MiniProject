@@ -18,6 +18,6 @@ public interface EnquiryService {
 
    public List<Student> getFilterEnquiries(EnquirySearchCriteria criteria,Integer registerId);
 
-
+   public Student getStudent(Integer studentId);
 
 }

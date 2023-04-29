@@ -61,7 +61,7 @@
 
 									<form th:action="@{/addenquiry}" th:object="${formobj}"
 										method="post">
-										>
+										<input type ="hidden" th:field ="*{studentId}"/>
 										<div class="form-outline mb-4">
 											<input type="text" id="form2Example11" class="form-control"
 												placeholder="Student Name" th:field="*{studentName}" /> <label
